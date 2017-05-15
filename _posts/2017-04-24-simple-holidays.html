@@ -481,4 +481,16 @@ tags: [Software Design, Architecture]
     </div>
     <div class="comment-date">2017-05-15 11:03 UTC</div>
   </div>
+<div class="comment">
+    <div class="comment-author">Steve</div>
+    <div class="comment-content">
+      <p>
+  	I like this approach a lot; and it also drives home that we should not prematurely generalise.  Many of us will immediately try to
+	      visualse a problem like this as "Database, Content Not My Problem". Just the other day one of our developers had to implement
+	      a simple permissions system, comprising of 5 roles which each could have any of 5 permissions. All they had to do was record this fixed matrix for system admins to pick from when creating users.
+And their *first* thought was "I know, I'll store this in an Azure Table". o_O<br>They ended up with about 200 lines of web-dependent C# when a tiny hard-coded List would have done the job :)
+	    </p>      
+    </div>
+    <div class="comment-date">2017-05-15 23:29 UTC</div>
+  </div>
 </div>
